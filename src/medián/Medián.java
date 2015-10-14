@@ -20,6 +20,7 @@ public class Medián {
             System.out.print("Vlož číslo: ");
             cislo = vstup.nextInt();
         }
+        // setřídit pouze zadané prvky (ve zbytku pole jsou nuly)
         Arrays.sort(pole,0,pocet);
         if (pocet%2 == 1) {
             // lichý počet prvků
